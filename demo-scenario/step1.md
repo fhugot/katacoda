@@ -1,7 +1,7 @@
-This is your first step.
+Premier step.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+Exemple d'execution d'une commande **command**
 
-`echo 'Hello World'`{{execute}}
+docker run -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin -e DB_VENDOR=H2 -p 8080:8080 --name sso jboss/keycloak-examples
